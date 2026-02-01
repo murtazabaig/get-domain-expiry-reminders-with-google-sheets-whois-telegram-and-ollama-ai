@@ -1,0 +1,45 @@
+{
+  "id": 12387,
+  "title": "Get domain expiry reminders with Google Sheets, WHOIS, Telegram, and Ollama AI",
+  "slug": "get-domain-expiry-reminders-with-google-sheets-whois-telegram-and-ollama-ai-12387",
+  "description": "This workflow helps you monitor domain expiration dates and send automatedreminders via Telegram when a domain is about to expire or has already expired,using WHOIS data and AI-powered information extracting.It helps prevent service downtime, lost traffic, and missed renewals forindividuals and teams managing multiple domains.Common use cases: * Track and remind on agency-managed client domains * Monitor personal or business domain portfolios * Send automated expiry alerts for IT and DevOps teamsHOW IT WORKS * Runs daily at 08:00 AM * Reads domain data from Google Sheets * Fetches WHOIS information from whois.com [http://whois.com] for each domain * Extracts the data (expired date, domain owner, status domain) using AI * Sends a Telegram reminder if the domain expires within 90 days * Records the notification date to avoid duplicate alertsSETUP STEPS 1. Add your Google Sheets ID and ensure the required columns exist 2. Connect your Google Sheets credentials [https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets] 3. Connect your Telegram credentials [https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.telegram/chat-operations] 4. Configure your LLM provider (Ollama or other) 5. Activate the workflowNEED HELP?Contact me on LinkedIn [https://www.linkedin.com/in/dwicahyas/]!",
+  "metadescription": "Automate domain expiry monitoring with WHOIS + AI. Pull from Google Sheets, get Telegram alerts 90 days before/after expiry, avoid downtime.",
+  "summary": "- Monitor domain expiration dates automatically to avoid downtime, lost traffic, and missed renewals  \n- Perfect for agencies, portfolio owners, and IT/DevOps teams managing multiple domains  \n- Runs daily at 08:00 AM, pulling domain lists from Google Sheets  \n- Fetches fresh WHOIS data from whois.com and uses AI to extract key details (expiry date, owner, status)  \n- Sends Telegram alerts when domains are expired or expiring within 90 days  \n- Logs notification dates to prevent duplicate reminders",
+  "date": "2 Jan 2026",
+  "createdAtRaw": "2026-01-02T09:23:34.613+00:00",
+  "categories": [
+    "DevOps",
+    "AI Summarization"
+  ],
+  "nodeTypes": [
+    "n8n-nodes-base.if",
+    "n8n-nodes-base.set",
+    "n8n-nodes-base.cron",
+    "n8n-nodes-base.html",
+    "n8n-nodes-base.noOp",
+    "n8n-nodes-base.dateTime",
+    "n8n-nodes-base.telegram",
+    "n8n-nodes-base.stickyNote",
+    "n8n-nodes-base.httpRequest",
+    "n8n-nodes-base.googleSheets",
+    "n8n-nodes-base.splitInBatches",
+    "@n8n/n8n-nodes-langchain.lmChatOllama",
+    "@n8n/n8n-nodes-langchain.informationExtractor"
+  ],
+  "author": {
+    "name": "Cahya",
+    "username": "cahya",
+    "avatar": "https://gravatar.com/avatar/d7bfbca4b01c6d49e5a31314fc9d654a6f6f5d00aa21ae7ea2e613d9f2bf7178?r=pg&d=retro&size=200",
+    "verified": false
+  },
+  "popularity": 37,
+  "visitors": 37,
+  "inserters": 9,
+  "templateUrl": "https://n8n.io/workflows/12387",
+  "readme": "",
+  "thumbnail": "https://supabase.amastuces.com/storage/v1/object/public/worklowscreenshot/12387-get-domain-expiry-reminders-with-google-sheets--whois--telegram--and-ollama-ai.webp",
+  "complexityLevel": "advanced",
+  "templateData": null,
+  "price": 0,
+  "referalUrl": null
+}
