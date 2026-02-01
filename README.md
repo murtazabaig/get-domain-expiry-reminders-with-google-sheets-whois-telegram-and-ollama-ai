@@ -1,6 +1,4 @@
-![Workflow thumbnail](assets/thumbnail.webp)
 
-![Workflow thumbnail](assets/thumbnail.svg)
 
 ![n8n](https://img.shields.io/badge/n8n-workflow-0EA5E9)
 ![license](https://img.shields.io/badge/license-MIT-green)
@@ -46,15 +44,6 @@ Automate domain expiry monitoring with WHOIS + AI. Pull from Google Sheets, get 
 ## Author
 
 Murtaza Baig
-
-## Screenshots
-
-![Screenshot](assets/10025-automate-interior-design-lead-qualification-with-ai---human-approval-to-notion.webp)
-![Screenshot](assets/10376-sync-events-from-excel-to-google-calendar-with-gpt-4o-mini-smart-summaries.webp)
-![Screenshot](assets/5966-analyze---target-high-value-customers-with-gpt-4-and-bright-data-mcp.webp)
-![Screenshot](assets/image_c8e1990a84.png)
-![Screenshot](assets/n8nworfklows.webp)
-![Screenshot](assets/thumbnail.webp)
 
 ## License
 MIT License. See `LICENSE`.
