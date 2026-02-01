@@ -1,3 +1,7 @@
+![n8n](https://img.shields.io/badge/n8n-workflow-0EA5E9)
+![license](https://img.shields.io/badge/license-MIT-green)
+![status](https://img.shields.io/badge/status-ready-brightgreen)
+
 # Get domain expiry reminders with Google Sheets, WHOIS, Telegram, and Ollama AI
 
 Advanced n8n automation for Get domain expiry reminders with Google Sheets, WHOIS, Telegram, and Ollama AI.
